@@ -1,0 +1,37 @@
+/* THIS FLAG MUST BE ABOVE THE IMPORT! */
+$feature-flags: (
+    ui-shell: true,
+);
+  
+@import '../constants.scss';
+
+.bx--header-panel--expanded {
+    width: 25rem;
+}
+
+.user-profile-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    border: 2px solid #FFF;
+    height: 2rem;
+    width: 2rem;
+}
+
+.bx--header__action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon {
+    fill: white;
+}
+
+.global-tab:hover {
+    background: #6f6f6f;
+    cursor: pointer;
+}

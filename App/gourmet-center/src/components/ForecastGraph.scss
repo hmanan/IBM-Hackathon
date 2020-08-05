@@ -1,0 +1,42 @@
+.graph-tile {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    padding-top: 2%;
+    align-items: center;
+}
+
+.tile {
+    width: 100%;
+    height: 100%;
+}
+
+.figure-title {
+    display: flex;
+    text-align: center;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bx--bar-graph-empty-text {
+    white-space: pre-wrap;
+    width: 90%;
+    height: 50%;
+    font-size: 1.2rem;
+}
+
+.bx--graph-label {
+    fill: #000;
+    font-size: 1rem;
+}
+
+  .tabs .bx--tabs__nav .tab .bx--tabs__nav > .tab > .bx--tabs__nav-link {
+    width:100% !important;
+  }
+
+  .tabs-container {
+      padding-left: 7.5rem;
+  }

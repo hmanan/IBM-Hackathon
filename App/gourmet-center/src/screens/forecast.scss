@@ -1,0 +1,21 @@
+.panel-container {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.panel-container .row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 16px;
+}
+
+.data-row {
+  width: 100%;
+}
+
+.greeting-title {
+  padding-top: 5%;
+  padding-left: 2%;
+}

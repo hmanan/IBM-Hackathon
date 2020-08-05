@@ -1,0 +1,42 @@
+@import "carbon-components/scss/globals/scss/styles.scss";
+
+$watson-blue: #0530ad;
+$notification-red: #da1e28;
+$log-snippet-orange: #fc7b1e;
+
+/* EXPORT SO WE CAN ACCESS THE VARIABLE IN JS */
+:export {
+  logSnippetOrange: $log-snippet-orange;
+  logSnippetBlue: $watson-blue;
+}
+
+/* FONT STYLES */
+
+html {
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+div {
+  font-size: 1rem;
+}
+
+.code-snippet {
+  font-family: "IBM Plex Mono";
+  padding-top: 10px;
+}

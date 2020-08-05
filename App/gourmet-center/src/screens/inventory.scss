@@ -1,0 +1,32 @@
+.insight-report {
+  .row {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    padding-right: 2rem;
+  }
+
+  .column {
+    width: 50%;
+    padding-top: 2.5rem;
+    height: 100%;
+  }
+
+  .column:nth-of-type(even) {
+    margin-left: 0;
+  }
+
+  .column:nth-of-type(odd) {
+    margin-right: 1rem;
+  }
+}
+
+// .tile-container {
+//   margin: 1rem;
+//   margin-left: 2rem;
+// }

@@ -1,0 +1,82 @@
+.header-inv {
+  padding-top: 5%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.plus-icon {
+  fill: white;
+}
+
+.styled {
+  width: 20%;
+  background: #CCCCCC
+}
+
+.table-toolbar {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+
+.table-toolbar-spacer {
+  flex: 0 0 80%;
+}
+
+.table-toolbar-item {
+  flex: 0 0 10%;
+}
+
+.table-row-clickable:hover {
+  cursor: pointer;
+}
+
+.table-row-select:hover {
+  cursor: crosshair;
+}
+
+.loader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.btn-submit {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.icon-white{
+  fill: #FFF;
+}
+
+.current-icon {
+  background: #0000FF;
+  fill: #0000FF;
+  border: 2px solid black;
+}
+
+.order-icon {
+  background: #FF0000;
+  fill: #FF0000;
+  border: 2px solid black;
+}
+
+.legend {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.legend-item {
+  padding-left: 3%;
+  padding-bottom: 2%;
+  
+}
